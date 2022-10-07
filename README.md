@@ -11,6 +11,8 @@ webImport("init")
 webImport("ui/main")
 ```
 
+Fork is to evade some weird check on this game: https://www.roblox.com/games/2569453732/Rise-of-Nations
+
 # Hydroxide
 <i>General purpose pen-testing tool for games on the Roblox engine</i>
 
