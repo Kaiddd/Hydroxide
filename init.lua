@@ -5,7 +5,7 @@ if oh then
 end
 
 local web = true
-local user = "strawbberrys" -- change if you're using a fork
+local user = "Kaiddd" -- change if you're using a fork
 local branch = "revision"
 local importCache = {}
 
@@ -43,7 +43,7 @@ local globalMethods = {
     getConnections = get_signal_cons or getconnections,
     getScriptClosure = getscriptclosure or get_script_function,
     getNamecallMethod = getnamecallmethod or get_namecall_method,
-    getCallingScript = getcallingscript or get_calling_script,
+    getCallingScript = function() return Instance.new("LocalScript") end,
     getLoadedModules = getloadedmodules or get_loaded_modules,
     getConstants = debug.getconstants or getconstants or getconsts,
     getUpvalues = debug.getupvalues or getupvalues or getupvals,
