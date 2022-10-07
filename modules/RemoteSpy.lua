@@ -77,7 +77,7 @@ nmcTrampoline = hookMetaMethod(game, "__namecall", function(...)
             local call = {
                 script = getCallingScript((PROTOSMASHER_LOADED ~= nil and 2) or nil),
                 args = vargs,
-                func = isv3 and getInfo(2).func or getInfo(3).func
+                func = nil
             }
 
             remote.IncrementCalls(remote, call)
@@ -130,7 +130,7 @@ for _name, hook in pairs(methodHooks) do
                 local call = {
                     script = getCallingScript((PROTOSMASHER_LOADED ~= nil and 2) or nil),
                     args = vargs,
-                    func = isv3 and getInfo(2).func or getInfo(3).func
+                    func = nil
                 }
     
                 remote:IncrementCalls(call)
