@@ -12,6 +12,7 @@ webImport("ui/main")
 ```
 
 Fork is to evade some weird check on this game: https://www.roblox.com/games/2569453732/Rise-of-Nations
+(I don't know a real solution to the check so I am opting on just removing the things it checks)
 
 # Hydroxide
 <i>General purpose pen-testing tool for games on the Roblox engine</i>
