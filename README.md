@@ -15,7 +15,7 @@ Fork is to evade some weird check on this game: https://www.roblox.com/games/256
 
 (I don't know a real solution to the check so I am opting on just removing the things it checks)
 
-Note: This breaks hydroxide's get calling script and spy calling function features
+Note: This breaks hydroxide's get calling script and spy calling function features, possibly more.
 
 # Hydroxide
 <i>General purpose pen-testing tool for games on the Roblox engine</i>
